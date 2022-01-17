@@ -2,5 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import { VueTypedJs } from 'vue-typed-js'
+import Axios from 'axios'
 
-createApp(App).use(store).use(router).mount('#app')
+
+Axios.defaults.headers.common['Authorization'] = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4NjQ0MTQ5MzIsIlVzZXIiOiJjb25zb2xlIiwiVHlwZSI6InB1YmxpYyIsIkRldmljZV9pZCI6bnVsbCwiQXBwX2lkIjoiIn0.MhoxhVDA3Z38lNiljxrsQ6rGQCr6gveWt9vkEyntnAazUOWbVhybm2OE6gaQCfKUjzOIYsheB_uCxK4DjAAvCO5jQjmIQwtzUzJNgBCj49HhTdXr1y6rNyiCGXrmJ2t49dWD9o1n9moGHLECw7BV6ScYB2N9zeutbJwyvFM7IxahM7aIrKxWwBPFI40zsjjyDvFHVBGEr31qwYZB5gouVvhpvK0T_z4wH1aPkr9AQ1mceAf8d00DWVwjW7tQtIw9ABCwu8ZsAy_sLGc7HpVxc0LSpzzp8nsvJTqYTMRfkLDEkMKBE_LjyAVOtC5NDvtZEdow6Zxj8_0K9jkYw_QfHvnN923znjRAccNjdKviVpFYLzGyuo0J5FsJk_pEsODri0YAskvRlnBzOJ8FPbxSgbo9Nr_vneXFOhTKLeIBKYpP2KwYUKvKLGLu6vGBmtVOBo-PCLeXeaDaiSZ5faFLrljvCYCXxcA9vk29pdNUnY-X5ndx7qGu2pGsgSrv49UwEIezU066C5Un5yyzLmiGq_V59_vpx2MC_bNQOJXqcikTruxqJF1Uhr378p9A_sct-JZxr-cACraTF7-sTfDyy8WOdw1cceBhqSBeDWwvGcS2W8LPqDLiwCbstw1wfY14Ed59wJ9lYUcsWPzdtOJiUxtc70UWojbjhweQ5ppJAKE'
+
+
+createApp(App).use(VueTypedJs).use(store).use(router).mount('#app')

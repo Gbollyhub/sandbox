@@ -1,0 +1,121 @@
+[
+    {
+        "id": "1",
+        "category": "Banking",
+        "title": "Managed Account",
+        "description": "Managed Account is a service that allows payers transfer payment to a virtual account number assigned to a merchant.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1628691411/Managed_Accounts_compressed_1.pdf",
+        "codeSample": "https://documenter.getpostman.com/view/224881/SVtWynz4?version=latest#1c4df9ff-3be5-4ed5-9377-f7a793c9ceac",
+        "routerLink": "/managed-accounts-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434182/sandbox%20images/Downloader.la_-615c397bdcd6e.jpg"
+      },
+       {
+        "id": "2",
+        "category": "Banking",
+        "title": "Scan To Pay",
+        "description": "The Scan to Pay Web Service is a web API that is used to carry out operations related to QR Transactions on Scan to Pay.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629034156/pdf/Scan_to_Pay_-New_compressed.pdf",
+        "codeSample": "https://apidocs.zenithbank.com/QRCodeAPI/SampleCodeForQrCode.html",
+        "routerLink": "",
+        "status": false
+        
+      },
+      {
+        "id": "3",
+        "category": "Banking",
+        "title": "E-Mandate Direct Debit Service",
+        "description": "This Service enables a customer to establish an electronic mandate authorizing the bank to permit debits in his/her accounts whenever purchases are made from eCommerce sites.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629036694/pdf/EMandateDebit_1__compressed.pdf",
+        "codeSample": "https://apidocs.zenithbank.com/EmandateDocumentation/emandate-xml-documentations.html",
+        "routerLink": "/emandate-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434182/sandbox%20images/Downloader.la_-615c396f497f8.jpg"
+      },
+      
+      {
+        "id": "4",
+        "category": "Banking",
+        "title": "CentralPayOtp Authentication Solution",
+        "description": "This service provides a way for customers to integrate with our strong authentication systems.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629036695/pdf/CentralPayOtp_Specification_Document_-NEWW-22_1__compressed.pdf",
+        "codeSample": "https://apidocs.zenithbank.com/CentralPayOtp/",
+        "routerLink": "",
+        "status": false
+      },
+      {
+        "id": "5",
+        "category": "Banking",
+        "title": "P2P Web Service",
+        "description": "The P2P Web Service is a web API that is used to carry out operations related to MasterCard Send P2P implementation.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629033927/pdf/P2P_Web_Service_v1.0_Fintech_2.pdf",
+        "codeSample": "https://sandbox.zenithbank.com/docs/p2pcustomerapi/swagger/ui/index",
+        "routerLink": "",
+        "status": false
+      },
+      {
+        "id": "6",
+        "category": "Banking",
+        "title": "Direct Transfer Service",
+        "description": "This document provides a technical detail to Zenith Bank Direct Transfer Service detailing request and response for individual calls.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629039757/pdf/Direct_Transfer_Documentation_1.pdf",
+        "codeSample": "https://sandbox.zenithbank.com/docs/directtransfer/swagger-ui.html",
+        "routerLink": "/direct-transfer-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434182/sandbox%20images/Downloader.la_-615c397eaa7fd.jpg"
+      },
+      {
+        "id": "7",
+        "category": "Banking",
+        "title": "Global Pay API Documentation Structure",
+        "description": " GlobalPAY is a web-based solution that enables corporate bodies with or without functional websites accept card payments from people globally.",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629110981/pdf/global%20API/GLOBAL_PAY_compressed.pdf",
+        "codeSample": "https://apidocs.zenithbank.com/globalpaydocs/Samplecodes.zip",
+        "routerLink": "/global-pay-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434181/sandbox%20images/Downloader.la_-615c398b271d8.jpg"
+      },
+      {
+        "id": "8",
+        "category": "Banking",
+        "title": "Agency Banking Integration Service",
+        "description": "Agency Banking Web Service is a web API that is used to carry out operations related to Agency Banking",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629111733/pdf/AgencyBanking-new_compressed.pdf",
+        "codeSample": "https://sandbox.zenithbank.com/docs/agencybankingservice/swagger/ui/index",
+        "routerLink": "/agency-banking-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434182/sandbox%20images/Downloader.la_-615c397bdcd6e.jpg"
+      },
+      {
+        "id": "9",
+        "category": "Banking",
+        "title": "Corporate Internet Banking Upload API",
+        "description": "This allows remote connection to our Corporate Internet Banking  Application  for the sole purpose of uploading payment instruction, without human intervention",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629111742/pdf/CIB_compressed.pdf",
+        "codeSample": "https://sandbox.zenithbank.com/docs/cibpaymentupload/TransmitPay.svc",
+        "routerLink": "/CIB-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434182/sandbox%20images/Downloader.la_-615c39813eae4.jpg"
+      },
+      {
+        "id": "10",
+        "category": "Banking",
+        "title": "Xpath Deposit Query Service",
+        "description": "Xpath Deposit Query Service",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1634739078/pdf/Xpath_compressed.pdf",
+        "codeSample": "https://sandbox.zenithbank.com/docs/xpath/DepositQuery?wsdl",
+        "routerLink": "/xpath-uc",
+        "status": true,
+        "img": "https://res.cloudinary.com/vlog/image/upload/v1633434299/sandbox%20images/christina-wocintechchat-com-kpfz_nFZ1gQ-unsplash.jpg"
+      },
+      {
+        "id": "11",
+        "category": "Banking",
+        "title": "MPGS APIs",
+        "description": "MPGS Integration",
+        "fileurl": "https://res.cloudinary.com/vlog/image/upload/v1629111743/pdf/MGP_compressed.pdf",
+        "codeSample": "https://apidocs.zenithbank.com/MPGS/Sample-MPGS-Test-Cards.zip",
+        "routerLink": "",
+        "status": false
+      }
+]

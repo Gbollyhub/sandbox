@@ -1,0 +1,931 @@
+.utility-page-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .utility-page-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 260px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .utility-page-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .community-tab-div {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 70px;
+    padding-right: 8%;
+    padding-left: 8%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .community-tab {
+    padding: 27px 58px 27px 0px;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    color: #424242;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .community-tab:hover {
+    color: #c00;
+  }
+  
+  .app-body {
+    font-family: Poppins, sans-serif;
+  }
+  
+  .community-section-1 {
+    display: block;
+    padding: 59px 8% 0px;
+  }
+  
+  .section-1-col {
+    height:200px;
+    margin-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 25px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 25%;
+    -ms-flex: 0 25%;
+    flex: 0 25%;
+  }
+  
+  .section-1-col.last {
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+  
+  .section-1-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .section-1-col-card {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 0 #eee;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
+  .card-img {
+    overflow: visible;
+    height: 40%;
+    background-image: url('../images/christina-wocintechchat-com-zFd1L-XtrTE-unsplash.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .section-header {
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .card-paragraph {
+    height: 70%;
+    padding: 20px;
+  }
+  
+  .card-actions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30%;
+    padding: 10px 14px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #e2e2e2;
+  }
+  
+  .card-actions.forum {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .card-actions.blog {
+    margin-bottom: 1px;
+  }
+  
+  .card-header {
+    display: block;
+    margin-bottom: 13px;
+    color: #383838;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .card-user {
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  
+  .card-actions-item {
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    font-size: 12px;
+  }
+  
+  .card-actions-item.forum {
+    padding-right: 40px;
+  }
+  
+  .card-actions-item.blog {
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  
+  .action-icon {
+    margin-right: 7px;
+    font-family: Ionicons, sans-serif;
+    font-size: 16px;
+  }
+  
+  .action-icon.blog {
+    font-size: 20px;
+  }
+  
+  .section-heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .view-all {
+    color: #cf0000;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+  .forum-section {
+    padding: 59px 8%;
+  }
+  
+  .forum-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .forum-col-1 {
+    padding: 30px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 25%;
+    -ms-flex: 0 25%;
+    flex: 0 25%;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+  }
+  
+  .forum-col-2 {
+    padding: 0px 0px 50px 50px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 75%;
+    -ms-flex: 0 75%;
+    flex: 0 75%;
+  }
+  
+  .leaderboard-header {
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #cf0000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .col-2-card {
+    height: auto;
+    margin-bottom: 30px;
+    padding: 30px 30px 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+  }
+  
+  .card-sub-text {
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 12px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  
+  .card-2-heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .card-2-heading.forum {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .card-status {
+    color: #2f9c00;
+    font-size: 13px;
+  }
+  
+  .card-status.unsolved {
+    color: #8d8d8d;
+  }
+  
+  .card-status.btn {
+    padding: 4px 8px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #313131;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .card-2-icon {
+    font-family: Ionicons, sans-serif;
+    font-size: 16px;
+  }
+  
+  .card-2-icon.star {
+    color: #f39e11;
+  }
+  
+  .leaderboard-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    border-bottom: 1px solid #dfdfdf;
+  }
+  
+  .avater {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #ff7272;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .div-block-community {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  
+  .avatar-name {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .blog-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 8%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .blog-div {
+    width: 60%;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  
+  .blog-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .blog-paragragh {
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: justify;
+  }
+  
+  .blog-user {
+    margin-bottom: 30px;
+    color: #adadad;
+    font-size: 12px;
+  }
+  
+  .blog-img-cover {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .blog-divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    background-color: #ddd;
+  }
+  
+  .blog-actions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .blog-tags {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .blog-feedback {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .blog-tag {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 10px;
+    padding: 8px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #8f8f8f;
+    font-size: 12px;
+  }
+  
+  .blog-author {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  
+  .author-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #db5656;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .author-details-1 {
+    margin-bottom: 5px;
+    color: #a8a8a8;
+    font-size: 12px;
+  }
+  
+  .author-details-2 {
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  
+  .author-details-3 {
+    font-size: 12px;
+  }
+  
+  .author-flank-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .author-flank-right {
+    text-align: right;
+  }
+  
+  .contact-btn {
+    padding: 5px 18px;
+    border-radius: 3px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .more-section {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+  }
+  
+  .forum-content {
+    padding: 44px 8%;
+    border-top: 1px solid #ddd;
+  }
+  
+  .convo-header {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  
+  .answers-header {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .answer-div {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .answer-header {
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .text-block {
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+  }
+  
+  .code-example {
+    margin-bottom: 30px;
+    padding: 25px 38px;
+    background-color: #f7f7f7;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .blog-div {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .community-tab-div {
+      height: auto;
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+  
+    .community-tab {
+      font-size: 12px;
+    }
+  
+    .community-section-1 {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+  
+    .section-1-col {
+      -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+    }
+  
+    .section-header {
+      font-size: 16px;
+    }
+  
+    .card-header {
+      font-size: 10px;
+    }
+  
+    .card-actions-item.blog {
+      font-size: 12px;
+    }
+  
+    .action-icon.blog {
+      font-size: 17px;
+    }
+  
+    .view-all {
+      font-size: 12px;
+    }
+  
+    .forum-row {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .forum-col-1 {
+      margin-bottom: 30px;
+      -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  
+    .forum-col-2 {
+      padding-left: 0px;
+      -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  
+    .card-status {
+      font-size: 12px;
+    }
+  
+    .card-status.btn {
+      font-size: 11px;
+    }
+  
+    .card-2-icon {
+      font-size: 12px;
+    }
+  
+    .blog-content {
+      padding: 22px 5%;
+    }
+  
+    .blog-div {
+      width: 100%;
+    }
+  
+    .blog-title {
+      font-size: 16px;
+    }
+  
+    .blog-paragragh {
+      font-size: 11px;
+    }
+  
+    .blog-user {
+      font-size: 11px;
+    }
+  
+    .blog-tag {
+      padding: 3px 15px;
+      font-size: 10px;
+    }
+  
+    .author-img {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+  
+    .author-details-1 {
+      font-size: 10px;
+    }
+  
+    .author-details-2 {
+      font-size: 12px;
+    }
+  
+    .author-details-3 {
+      font-size: 10px;
+    }
+  
+    .convo-header {
+      font-size: 16px;
+    }
+  
+    .answers-header {
+      font-size: 16px;
+    }
+  
+    .answer-header {
+      font-size: 11px;
+    }
+  
+    .text-block {
+      font-size: 11px;
+    }
+  
+    .code-example {
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .community-tab {
+      padding-top: 17px;
+      padding-bottom: 17px;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 50%;
+      -ms-flex: 0 50%;
+      flex: 0 50%;
+      font-size: 11px;
+    }
+  
+    .community-tab.w--current {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 50%;
+      -ms-flex: 0 50%;
+      flex: 0 50%;
+    }
+  
+    .section-1-col {
+      padding-left: 0px;
+      -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  
+    .forum-col-1 {
+      padding: 21px;
+    }
+  
+    .col-2-card {
+      padding: 12px;
+    }
+  
+    .card-2-heading {
+      margin-bottom: 20px;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .card-2-heading.forum {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .card-status {
+      text-align: left;
+    }
+  
+    .card-status.btn {
+      width: 150px;
+      text-align: center;
+    }
+  
+    .leaderboard-rating {
+      text-align: left;
+    }
+  
+    .blog-author {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .author-flank-left {
+      margin-bottom: 20px;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 100%;
+      -ms-flex: 0 100%;
+      flex: 0 100%;
+    }
+  
+    .author-flank-right {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 100%;
+      -ms-flex: 0 100%;
+      flex: 0 100%;
+    }
+  
+    .convo-header {
+      font-size: 14px;
+    }
+  
+    .text-block {
+      text-align: justify;
+    }
+  }
+  
+  @font-face {
+    font-family: 'Ionicons';
+    src: url('../fonts/ionicons.eot') format('embedded-opentype'), url('../fonts/ionicons.woff') format('woff'), url('../fonts/ionicons.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype'), url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
